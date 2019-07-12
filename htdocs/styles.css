@@ -1,0 +1,161 @@
+*{
+}
+
+
+html, body{
+	height: 98%;
+}
+
+#body{
+	background: yellow;
+	position: relative;
+	height: 10%;
+	width: 99.3%;	
+	float: left;
+	padding: 5px;
+}
+
+.wrapper{
+	background: #001f3f;
+}
+
+.header{
+	position: relative;
+	background:#7FDBFF;
+	height: 10%;
+}
+
+#wrapper{
+	height:100%;
+	position: relative;
+	padding: 10px;
+}
+
+.cp{
+	height:5%;
+	background: #AAAAAA ;	
+}
+
+.btn{
+	height: 100%;
+	width: 20%;
+	padding:2px;
+	float: left;
+}
+
+#busca{
+
+	height: 70%;
+	width: 19%;
+	padding:3px;
+	float: left;
+
+}
+.cabecera{
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+
+
+body{
+	background-color: white;
+	margin: 0 auto;
+}
+
+
+tr:nth-child(even){
+	background-color: rgba(200,200,255, 0.7);
+}
+
+tr:nth-child(odd){
+	background-color: rgba(200,200,255, 0.2);
+}
+
+td{
+	padding: 5px;
+}
+
+.cabecera{
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+.cabemod{
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+.modif{
+	cursor:pointer;
+	background-color: #FFFFFF;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.modif:hover{
+	cursor:pointer;
+	background-color: red;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border-radius: 0px 10px 10px 0px;
+}
+
+#topbar{
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 20px;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#topbar a{
+	font-size: 30px;
+	margin-left: 5px;
+}
+
+#contenido{
+	padding-left: 10%;
+}
+
+#herramientas{
+	background-color: #AAAA77;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:5px;
+	margin-right: 28%;
+	vertical-align: center;
+}
+
+#fldstMod{
+	width: 170px;
+	padding: 20px;
+}
+
+#fldstMod input[type="text"]{
+	height: 20px;
+	margin-bottom: 5px;
+	width: 175px;
+}
+
+#fldstMod label{
+	height: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#fldstMod input[type="submit"]{
+	height: 20px;
+	margin-bottom: 5px;
+	width: 175px;
+}

@@ -1,0 +1,48 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+}
+fieldset{
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 70px;
+	padding-top: 70px;
+	border-radius: 20px 20px 20px 20px;
+	background-color: gray;
+	border-color: 2px black;
+	box-shadow: 0px 4px 10px rgba(255,255,255, 0.3);
+}
+
+form input[type="text"]{
+	height: 35px;
+	width: 250px;
+	margin-bottom: 12px;
+	display: block;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+form input[type="password"]{
+	height: 35px;
+	width: 250px;
+	margin-bottom: 12px;
+	display: block;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+form input[type="submit"]{
+	height: 35px;
+	width: 120px;
+	margin-left: 131px;
+	font-weight: bold;
+}
+
+
+#logueo{
+	padding-top: 100px;
+	width: 200px;
+	text-align: center;
+	margin-left: 33%;
+}

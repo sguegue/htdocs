@@ -22,4 +22,5 @@ if(!$conexion = mysqli_connect(SERVIDOR,USUARIO,CLAVE,BASE)){
 	else{
 		echo "El registro se ha eliminado.";
 	}
+}
 ?>
